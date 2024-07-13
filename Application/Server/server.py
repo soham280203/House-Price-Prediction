@@ -31,3 +31,4 @@ if __name__ == "__main__":
     print("Starting Flask server for Home Price Prediction...")
     util.load_saved_artifacts()  # Load artifacts when starting the server
     app.run()
+n

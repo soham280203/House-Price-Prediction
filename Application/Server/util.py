@@ -34,7 +34,7 @@ def load_saved_artifacts():
     global __model
     global __artifacts_loaded
 
-    if not __artifacts_loaded:
+    if  not __artifacts_loaded:
         print("Loading saved artifacts")
         with open("./Application/Artifacts/Bengaluru_House_Data.pickle", 'rb') as f:
             __model = pickle.load(f)
@@ -46,6 +46,4 @@ def load_saved_artifacts():
 
 if __name__ == "__main__":
     load_saved_artifacts()
-    print(get_estimated_price("1st Phase JP Nagar", 1000, 3, 3))
-    print(get_estimated_price("1st Phase JP Nagar", 1000, 2, 2))
-    print(get_estimated_price("Indira Nagar", 1500, 3, 2))
+    
