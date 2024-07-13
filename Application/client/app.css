@@ -32,10 +32,30 @@ body, html {
   backdrop-filter: blur(5px); /* Apply a blur effect to the background */
 }
 
+h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  font-weight: 700;
+}
+
 h2 {
   font-size: 20px;
   margin-bottom: 10px;
   font-weight: 400;
+}
+
+p {
+  font-size: 16px;
+  margin: 5px 0;
+}
+
+p a {
+  color: #0073b1;
+  text-decoration: none;
+}
+
+p a:hover {
+  text-decoration: underline;
 }
 
 .area, .location, .submit, .result {
@@ -68,7 +88,7 @@ h2 {
 .result {
   background: #ffd700;
   text-align: center;
-  margin:auto;
+  margin: auto;
   color: #333;
 }
 
@@ -112,4 +132,14 @@ h2 {
 
 .switch-field label:last-of-type {
   border-radius: 0 5px 5px 0;
+}
+
+.reference {
+  margin-top: 20px;
+  font-size: 0.9em;
+  color: #555;
+}
+
+.reference a {
+  color: #0073b1;
 }
